@@ -15,7 +15,7 @@ C:/Users/HsuanChao/OneDrive - TLN Training/Desktop/LightingBasics
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58426
+60577
 Successfully changed project path to: C:/Users/HsuanChao/OneDrive - TLN Training/Desktop/LightingBasics
 C:/Users/HsuanChao/OneDrive - TLN Training/Desktop/LightingBasics
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/HsuanChao/OneDrive - TLN Training/Desktop/LightingBasics
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11472] Host "[IP] 172.19.227.67 [Port] 0 [Flags] 2 [Guid] 2992056296 [EditorId] 2992056296 [Version] 1048832 [Id] WindowsEditor(7,TLNT-LAP-58) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13788] Host "[IP] 192.168.0.88 [Port] 0 [Flags] 2 [Guid] 2439148804 [EditorId] 2439148804 [Version] 1048832 [Id] WindowsEditor(7,TLNT-LAP-58) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [11472] Host "[IP] 172.19.227.67 [Port] 0 [Flags] 2 [Guid] 2992056296 [EditorId] 2992056296 [Version] 1048832 [Id] WindowsEditor(7,TLNT-LAP-58) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13788] Host "[IP] 192.168.0.88 [Port] 0 [Flags] 2 [Guid] 2439148804 [EditorId] 2439148804 [Version] 1048832 [Id] WindowsEditor(7,TLNT-LAP-58) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 27.16 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 21.88 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -59,85 +59,85 @@ Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon(TM) Graphics (ID=0x1638)
-    Vendor:   ATI
-    VRAM:     7866 MB
-    Driver:   27.20.21020.5007
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6023 MB
+    Driver:   30.0.14.7247
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56856
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56832
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007418 seconds.
+Registered in 0.008363 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 667 ms
-Refreshing native plugins compatible for Editor in 25.42 ms, found 0 plugins.
+Android Extension - Scanning For ADB Devices 536 ms
+Refreshing native plugins compatible for Editor in 20.99 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.360 seconds
+- Completed reload, in  1.168 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1360ms)
-		BeginReloadAssembly (92ms)
+	ReloadAssembly (1169ms)
+		BeginReloadAssembly (69ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1127ms)
-			LoadAssemblies (89ms)
+		EndReloadAssembly (968ms)
+			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (110ms)
+			SetupTypeCache (139ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (935ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (751ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (757ms)
+				InitializePlatformSupportModulesInManaged (611ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (26ms)
+				RefreshPlugins (21ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (100ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
+				ProcessInitializeOnLoadAttributes (80ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000583 seconds.
+Registered in 0.000534 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.733 seconds
+- Completed reload, in  0.609 seconds
 Domain Reload Profiling:
-	ReloadAssembly (734ms)
-		BeginReloadAssembly (123ms)
+	ReloadAssembly (610ms)
+		BeginReloadAssembly (96ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (488ms)
-			LoadAssemblies (72ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (415ms)
+			LoadAssemblies (59ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (114ms)
+			SetupTypeCache (97ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (217ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (177ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
+				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (43ms)
-				ProcessInitializeOnLoadAttributes (120ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (94ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -146,12 +146,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 811 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (1.9 MB). Loaded Objects now: 1276.
-Memory consumption went from 56.8 MB to 54.9 MB.
-Total: 3.383900 ms (FindLiveObjects: 0.103900 ms CreateObjectMapping: 0.021500 ms MarkObjects: 2.596600 ms  DeleteObjects: 0.660900 ms)
+Unloading 24 unused Assets / (2.0 MB). Loaded Objects now: 1277.
+Memory consumption went from 57.4 MB to 55.5 MB.
+Total: 2.645700 ms (FindLiveObjects: 0.100200 ms CreateObjectMapping: 0.022000 ms MarkObjects: 1.978000 ms  DeleteObjects: 0.544800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -165,103 +165,79 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1543.597688 seconds.
-  path: Assets/Scenes/Start/DirectLighting
-  artifactKey: Guid(6dd6aaa3e3ffd4de187a937a0af70f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Start/DirectLighting using Guid(6dd6aaa3e3ffd4de187a937a0af70f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ddaa66ff3fab54315f744e1e5ff859') in 0.005948 seconds 
+  Time since last request: 44186.257485 seconds.
+  path: Assets/Standard Assets
+  artifactKey: Guid(bad372ae97fa24d95b4b272de42467d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets using Guid(bad372ae97fa24d95b4b272de42467d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ceeac620c28a341061e833650591eb') in 0.004341 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.052789 seconds.
-  path: Assets/Scenes/Start/DirectLighting/DirectionalLightStart.unity
-  artifactKey: Guid(16494d86a26034024a016ce4bcbc4094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Start/DirectLighting/DirectionalLightStart.unity using Guid(16494d86a26034024a016ce4bcbc4094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '294587cc1f1f0aa5db7dee1db1fa90d7') in 0.002690 seconds 
+  Time since last request: 0.921526 seconds.
+  path: Assets/Standard Assets/Effects/LightCookies
+  artifactKey: Guid(794a3489a6afd4daf80d98a5844341b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/LightCookies using Guid(794a3489a6afd4daf80d98a5844341b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3318ad0e4c9f0bc80cd8c4b40eb2472') in 0.002440 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.166904 seconds.
-  path: Assets/Scenes/Start/DirectLighting/LightCookiesStart.unity
-  artifactKey: Guid(f24a61c498f184bc98111a941344d3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Start/DirectLighting/LightCookiesStart.unity using Guid(f24a61c498f184bc98111a941344d3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e456a16bbdb7fdad9cb4ec2cb0690f3') in 0.002619 seconds 
+  Time since last request: 2.730613 seconds.
+  path: Assets/Standard Assets/Effects/LightCookies/Textures
+  artifactKey: Guid(e1ec4045399060440949afafba4d144f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/LightCookies/Textures using Guid(e1ec4045399060440949afafba4d144f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d7d21ce4399fbb9f2216955230b69c') in 0.001844 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.704032 seconds.
-  path: Assets/Scenes/Start/DirectLighting/LightExplorerStart.unity
-  artifactKey: Guid(a31dbc57ad5d5423c935d3c8c0bd395f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Start/DirectLighting/LightExplorerStart.unity using Guid(a31dbc57ad5d5423c935d3c8c0bd395f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de910cfee2ef50af1de9467742f18d9') in 0.010822 seconds 
+  Time since last request: 38.223923 seconds.
+  path: Assets/Standard Assets/Effects/LightCookies/Textures/FlashlightCookie.tif
+  artifactKey: Guid(2c29c08dd1c0b6749b7cd0fcff7a29fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/LightCookies/Textures/FlashlightCookie.tif using Guid(2c29c08dd1c0b6749b7cd0fcff7a29fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c261d8648ed3a003e29337d4bd9b8bb') in 0.074270 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.950388 seconds.
-  path: Assets/Scenes/_CompletedScenes
-  artifactKey: Guid(a20617f67046a487fb51f3f7e2cac36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/_CompletedScenes using Guid(a20617f67046a487fb51f3f7e2cac36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2333eb1bc7ebed5abdaf7227f95a1d3f') in 0.002799 seconds 
+  Time since last request: 7.773458 seconds.
+  path: Assets/Standard Assets/Effects/LightCookies/Textures/FlashlightIrregularCookie.tif
+  artifactKey: Guid(641bb2dce818a8a499b537a1963889ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/LightCookies/Textures/FlashlightIrregularCookie.tif using Guid(641bb2dce818a8a499b537a1963889ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55beadb958414dd46fdb7e9502e301ae') in 0.008039 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.781049 seconds.
-  path: Assets/Scenes/_CompletedScenes/DirectLighting
-  artifactKey: Guid(dc9f86e1a408f4479a075aa0c1df1736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/_CompletedScenes/DirectLighting using Guid(dc9f86e1a408f4479a075aa0c1df1736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c07a0e26ab7d15e2074a879c8029e5') in 0.001622 seconds 
+  Time since last request: 23.222344 seconds.
+  path: Assets/Standard Assets/Effects/LightCookies/Textures/LightSoftCookie.tif
+  artifactKey: Guid(8caa437b19957a045866b84c6218a0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/LightCookies/Textures/LightSoftCookie.tif using Guid(8caa437b19957a045866b84c6218a0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '719cda825ac5943473007b042446db87') in 0.026324 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.928225 seconds.
-  path: Assets/Scenes/_CompletedScenes/DirectLighting/LightCookiesComplete.unity
-  artifactKey: Guid(a52f4f399977a485db6c01dfbf13a787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/_CompletedScenes/DirectLighting/LightCookiesComplete.unity using Guid(a52f4f399977a485db6c01dfbf13a787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5198888b1201c1434915be962247a845') in 0.002489 seconds 
+  Time since last request: 0.884765 seconds.
+  path: Assets/Standard Assets/Effects/LightCookies/Textures/LightHardCookie.psd
+  artifactKey: Guid(1167c0a28d11119930004d8a4241aa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/LightCookies/Textures/LightHardCookie.psd using Guid(1167c0a28d11119930004d8a4241aa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29339b40176ad83aadccce6fb71c7ef2') in 0.029916 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 368.900478 seconds.
-  path: Assets/Models
-  artifactKey: Guid(959f6f1a290e24bc494d4c15b41f7581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models using Guid(959f6f1a290e24bc494d4c15b41f7581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5cedc2def251a845acc50a4b47b99cd') in 0.002430 seconds 
+  Time since last request: 63.514194 seconds.
+  path: Assets/Standard Assets/Effects/LightCookies/Textures/FlashlightCookie.tif
+  artifactKey: Guid(2c29c08dd1c0b6749b7cd0fcff7a29fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/LightCookies/Textures/FlashlightCookie.tif using Guid(2c29c08dd1c0b6749b7cd0fcff7a29fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3352971a1815739b7c828cb724e4c176') in 0.008370 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.941368 seconds.
-  path: Assets/Models/Tank
-  artifactKey: Guid(375742b9443f04caea9d7a2b35cd2a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Tank using Guid(375742b9443f04caea9d7a2b35cd2a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b46b356f46cb455462029db8af60c10') in 0.002926 seconds 
+  Time since last request: 24.548922 seconds.
+  path: Assets/Standard Assets/Effects/LightCookies/Textures/LightSquareCookie.psd
+  artifactKey: Guid(69680b688d11eb9d30009b3b4241aa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/LightCookies/Textures/LightSquareCookie.psd using Guid(69680b688d11eb9d30009b3b4241aa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b642cb180590e436e0c39cb924ca8edb') in 0.007136 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 448.059637 seconds.
-  path: Assets/Scenes/Start/DirectLighting/PointLightStart.unity
-  artifactKey: Guid(76e3cd86731194933aad0d478c7fc5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Start/DirectLighting/PointLightStart.unity using Guid(76e3cd86731194933aad0d478c7fc5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ffbaff9543c5e8dbc036360dfbfbbb') in 0.003089 seconds 
+  Time since last request: 69.886954 seconds.
+  path: Assets/Standard Assets/Effects/LightCookies/Textures/WindowCookie.png
+  artifactKey: Guid(4dd994f94fe0471468c18be8afe8d650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/LightCookies/Textures/WindowCookie.png using Guid(4dd994f94fe0471468c18be8afe8d650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd521af3f91da693f72f9ce0414d56002') in 0.091513 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 231.199181 seconds.
-  path: Assets/Scenes/Start/DirectLighting/DirectionalLightStart.unity
-  artifactKey: Guid(16494d86a26034024a016ce4bcbc4094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Start/DirectLighting/DirectionalLightStart.unity using Guid(16494d86a26034024a016ce4bcbc4094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0af3ad9c2c0e6e5d8ebfd9c0fa97ab1') in 0.002275 seconds 
+  Time since last request: 4.857111 seconds.
+  path: Assets/Standard Assets/Effects/LightCookies/Textures/WindowCookie.png
+  artifactKey: Guid(4dd994f94fe0471468c18be8afe8d650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/LightCookies/Textures/WindowCookie.png using Guid(4dd994f94fe0471468c18be8afe8d650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca464660f23303c7d307331a2a1278c') in 0.005776 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 200.695330 seconds.
-  path: Assets/Scenes/Start/DirectLighting/PointLightStart.unity
-  artifactKey: Guid(76e3cd86731194933aad0d478c7fc5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Start/DirectLighting/PointLightStart.unity using Guid(76e3cd86731194933aad0d478c7fc5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d24512e9fa5af20907b65e73107438') in 0.002064 seconds 
+  Time since last request: 8.825357 seconds.
+  path: Assets/Standard Assets/Effects/LightCookies/Textures/WindowCookie.png
+  artifactKey: Guid(4dd994f94fe0471468c18be8afe8d650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/LightCookies/Textures/WindowCookie.png using Guid(4dd994f94fe0471468c18be8afe8d650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12b5e887918d8fc742741607e2e39e8e') in 0.005921 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.755634 seconds.
-  path: Assets/Scenes/Start/DirectLighting/PointLightStartSettings.lighting
-  artifactKey: Guid(6dfc8c7d1aedf4f4c991ce2100d6c803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Start/DirectLighting/PointLightStartSettings.lighting using Guid(6dfc8c7d1aedf4f4c991ce2100d6c803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adee009034eb7a02947f3c2f3a92315c') in 0.052591 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 465.317556 seconds.
-  path: Assets/Scenes/Start/DirectLighting/PointLightStart.unity
-  artifactKey: Guid(76e3cd86731194933aad0d478c7fc5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Start/DirectLighting/PointLightStart.unity using Guid(76e3cd86731194933aad0d478c7fc5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb74d592b39d132eb9f9f0ad2dc6105e') in 0.002055 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 583.955148 seconds.
-  path: Assets/Scenes/_CompletedScenes/DirectLighting/PointLightComplete.unity
-  artifactKey: Guid(dc3117c946a7a4cee9295d1d44ea6fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/_CompletedScenes/DirectLighting/PointLightComplete.unity using Guid(dc3117c946a7a4cee9295d1d44ea6fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f34c845de6ee252eb5c5dee36f60856') in 0.004068 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 226.803343 seconds.
-  path: Assets/Scenes/Start/DirectLighting/PointLightStart.unity
-  artifactKey: Guid(76e3cd86731194933aad0d478c7fc5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Start/DirectLighting/PointLightStart.unity using Guid(76e3cd86731194933aad0d478c7fc5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab142adf123a9667620d657553e66f2') in 0.001615 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 339.923783 seconds.
-  path: Assets/Scenes/Start/DirectLighting/SpotlightStart.unity
-  artifactKey: Guid(7134fa66c595a4623b80db0aeccf6179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Start/DirectLighting/SpotlightStart.unity using Guid(7134fa66c595a4623b80db0aeccf6179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c6101e5dd0a608d266f4f3a5019a80') in 0.004613 seconds 
+  Time since last request: 286.946843 seconds.
+  path: Assets/Profiles
+  artifactKey: Guid(cc964bdeb5a364749b7050eee3e93e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Profiles using Guid(cc964bdeb5a364749b7050eee3e93e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82d8cfee800d5c3debcf0e0629678b8') in 0.002032 seconds 
